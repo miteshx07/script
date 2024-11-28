@@ -29,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-Breakfast lavender
+breakfast lavender
 echo "============="
 
 # Build rom
