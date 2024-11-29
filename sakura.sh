@@ -24,6 +24,7 @@ export BUILD_HOSTNAME=crave
 export TZ=Asia/DELHI
 export SAKURA_MAINTAINER=Mit_Oz
 export SAKURA_BUILD_TYPE=gapps
+export TARGET_BOOT_ANIMATION_RES=720
 echo "======= Export Done ======"
 
 # Set up build environment
