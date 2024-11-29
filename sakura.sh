@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf .repo/local_manifests/
+# rm -rf .repo/local_manifests/
 
 # Rom source repo
 repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14 --git-lfs
