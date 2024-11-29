@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/GenesisOS/manifest.git -b verve --git-lfs
+repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b gen https://github.com/miteshx07/local_manifest.git .repo/local_manifests
+git clone -b sakura https://github.com/miteshx07/local_manifest.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -29,8 +29,8 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-breakfast lavender
+lunch lineage_lavender-ap2a-userdebug
 echo "============="
 
 # Build rom
-mka genesis
+mka bacon
