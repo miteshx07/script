@@ -28,7 +28,7 @@ export TARGET_BOOT_ANIMATION_RES=720
 echo "======= Export Done ======"
 
 # Set up build environment
-source build/envsetup.sh
+. build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
