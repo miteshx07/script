@@ -22,6 +22,8 @@ echo "============================"
 export BUILD_USERNAME=Mit_Oz
 export BUILD_HOSTNAME=crave
 export TZ=Asia/DELHI
+export SAKURA_MAINTAINER=Mit_Oz
+export SAKURA_BUILD_TYPE=gapps
 echo "======= Export Done ======"
 
 # Set up build environment
