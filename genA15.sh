@@ -18,15 +18,13 @@
 # /opt/crave/resync.sh
 # echo "============================"
 
-# Export
-export BUILD_USERNAME=Mit_Oz
-export BUILD_HOSTNAME=crave
-export TZ=Asia/Mumbai
-echo "======= Export Done ======"
-
 # Set up build environment
 source build/envsetup.sh
 echo "====== Envsetup Done ======="
+
+# Export
+export TZ=Asia/Mumbai
+make installclean
 
 # Lunch
 breakfast lavender
