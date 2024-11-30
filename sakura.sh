@@ -8,7 +8,7 @@ echo "=================="
 echo "Repo init success"
 echo "=================="
 
-Clone local_manifests repository
+# Clone local_manifests repository
 git clone -b sakura https://github.com/miteshx07/local_manifest.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
