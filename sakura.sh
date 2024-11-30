@@ -9,7 +9,7 @@ repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14 --git-
 # echo "=================="
 
 # Clone local_manifests repository
-git clone -b sakura https://github.com/miteshx07/local_manifests.git .repo/local_manifests
+git clone -b sakura https://github.com/miteshx07/local_manifests .repo/local_manifests
 # echo "============================"
 # echo "Local manifest clone success"
 # echo "============================"
