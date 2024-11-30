@@ -32,4 +32,4 @@ lunch lineage_lavender-ap2a-userdebug
 echo "============="
 
 # Build rom
-#m bacon
+m bacon
