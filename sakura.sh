@@ -15,7 +15,7 @@ echo "Local manifest clone success"
 echo "============================"
 
 # Sync the repositories
-/opt/crave/sync.sh
+/opt/crave/resync.sh
 echo "============================"
 
 # Set up build environment
