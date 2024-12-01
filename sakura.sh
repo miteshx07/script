@@ -15,8 +15,8 @@
 # echo "============================"
 
 # Sync the repositories
-/opt/crave/resync.sh
-echo "============================"
+# /opt/crave/resync.sh
+# echo "============================"
 
 # Set up build environment
 . build/envsetup.sh
