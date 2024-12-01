@@ -26,6 +26,7 @@ export SAKURA_MAINTAINER=Mit_Oz
 export SAKURA_BUILD_TYPE=gapps
 export TARGET_BOOT_ANIMATION_RES=720
 export TARGET_RELEASE=ap2a
+export TZ=Asia/Dhaka
 echo "======== Export Done ======="
 
 # Lunch
