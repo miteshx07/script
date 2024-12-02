@@ -28,6 +28,7 @@ export SAKURA_BUILD_TYPE=VANILLA
 export TARGET_BOOT_ANIMATION_RES=720
 export TARGET_RELEASE=ap2a
 export TZ=Asia/Dhaka
+export TARGET_BUILD_VARIANT=user
 echo "======== Export Done ======="
 
 # Lunch
