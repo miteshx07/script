@@ -32,7 +32,7 @@ export TARGET_BUILD_VARIANT=user
 echo "======== Export Done ======="
 
 # Lunch
-breakfast lavender
+lunch lineage_lavender-ap2a-user
 echo "============="
 
 # Build rom
