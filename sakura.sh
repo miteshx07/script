@@ -29,11 +29,11 @@ export TARGET_BOOT_ANIMATION_RES=720
 export TARGET_RELEASE=ap2a
 export TZ=Asia/Dhaka
 export TARGET_BUILD_VARIANT=user
-export TARGET_BUILD_TYPE=release
+export TARGET_BUILD_TYPE=user
 echo "======== Export Done ======="
 
 # Lunch
-lunch lineage_lavender-ap2a-user
+breakfast lavender
 echo "============="
 
 # Build rom
