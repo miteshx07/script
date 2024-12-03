@@ -9,13 +9,13 @@
 #echo "=================="
 
 # Clone local_manifests repository
-git clone -b sakura https://github.com/miteshx07/local_manifests .repo/local_manifests
+#git clone -b sakura https://github.com/miteshx07/local_manifests .repo/local_manifests
 #echo "============================"
 #echo "Local manifest clone success"
 #echo "============================"
 
 # Sync the repositories
-/opt/crave/resync.sh
+#/opt/crave/resync.sh
 #echo "============================"
 
 # Set up build environment
