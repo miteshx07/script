@@ -1,21 +1,21 @@
 #!/bin/bash
 
-rm -rf .repo/local_manifests
+#rm -rf .repo/local_manifests
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14 --git-lfs
+#repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14 --git-lfs
 #echo "=================="
-echo "Repo init success"
+#echo "Repo init success"
 #echo "=================="
 
 # Clone local_manifests repository
-git clone -b sakura https://github.com/miteshx07/local_manifests .repo/local_manifests
+#git clone -b sakura https://github.com/miteshx07/local_manifests .repo/local_manifests
 #echo "============================"
-echo "Local manifest clone success"
+#echo "Local manifest clone success"
 #echo "============================"
 
 # Sync the repositories
-/opt/crave/resync.sh
+#/opt/crave/resync.sh
 #echo "============================"
 
 # Set up build environment
@@ -37,4 +37,4 @@ lunch lineage_lavender-ap2a-user
 echo "============="
 
 # Build rom
-# m bacon
+m bacon
