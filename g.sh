@@ -20,7 +20,7 @@
 
 # Export
 #export TZ=Asia/Delhi
-echo "======= Export Done ======"
+#echo "======= Export Done ======"
 
 # Set up build environment
 source build/envsetup.sh
