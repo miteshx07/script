@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf .repo/local_manifests
+#rm -rf .repo/local_manifests
 
 #repo init --depth=1 -u https://github.com/GenesisOS/manifest.git -b verve --git-lfs
 
@@ -8,7 +8,6 @@ rm -rf .repo/local_manifests
 
 #/opt/crave/resync.sh
 
-# Set up build environment
 source build/envsetup.sh
 breakfast lavender
 mka genesis
