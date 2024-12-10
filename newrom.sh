@@ -4,7 +4,7 @@ rm -rf .repo/local_manifests
 
 repo init -u https://github.com/nitrogen-project/android_manifest.git -b 15 --git-lfs
 
-git clone -b nitro15 https://github.com/miteshx07/local_manifest.git .repo/local_manifests
+git clone -b nitro15 https://github.com/miteshx07/local_manifests .repo/local_manifests
 
 /opt/crave/resync.sh
 
