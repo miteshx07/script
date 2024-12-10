@@ -9,5 +9,5 @@ git clone -b black https://github.com/miteshx07/local_manifests .repo/local_mani
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch nitrogen_lavender-userdebug
-#make -j$(nproc --all)
+blkilunch lavender user
+#balki b
