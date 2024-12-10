@@ -10,4 +10,4 @@
 
 . build/envsetup.sh
 blkilunch lavender user
-#balki b
+balki b
