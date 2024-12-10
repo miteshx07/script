@@ -2,7 +2,7 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/nitrogen-project/android_manifest.git -b 15 --git-lfs
+repo init -u https://github.com/nitrogen-project/android_manifest.git -b 15
 
 git clone -b nitro15 https://github.com/miteshx07/local_manifests .repo/local_manifests
 
