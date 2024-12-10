@@ -8,6 +8,6 @@
 
 #/opt/crave/resync.sh
 
-source build/envsetup.sh
+. build/envsetup.sh
 breakfast lavender
 mka genesis
