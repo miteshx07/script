@@ -10,4 +10,5 @@ git clone -b black https://github.com/miteshx07/local_manifests.git .repo/local_
 
 . build/envsetup.sh
 blkilunch lavender user
-#blki b
+make installclean
+blki b
