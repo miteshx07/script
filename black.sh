@@ -9,5 +9,7 @@
 #/opt/crave/resync.sh
 
 . build/envsetup.sh
+
 blkilunch lavender user
+
 blki b
