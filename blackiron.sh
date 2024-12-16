@@ -12,6 +12,6 @@
 
 blkilunch lavender user
 
-make installclean
+#make installclean
 
 blki b
