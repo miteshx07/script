@@ -2,4 +2,6 @@
 
 . build/envsetup.sh
 
-brunch lavender user
+lunch lineage_lavender-ap2a-userdebug
+
+mka bacon
